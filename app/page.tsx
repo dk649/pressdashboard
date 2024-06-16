@@ -31,7 +31,7 @@ export default function Home() {
         />
       </div>
 
-      <PostsTable />
+      <PostsTable limit={5} />
     </>
   );
 }
